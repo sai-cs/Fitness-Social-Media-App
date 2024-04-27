@@ -1,0 +1,44 @@
+
+/* styles.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value based on your requirement */
+  }
+  
+  /* styles.css */
+  .create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value based on your requirement */
+  }
+  
+  /* HomePage.css */
+  .Home {
+    padding: 20px;
+  }
+  
+  .PostListContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .PostContainer {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .PostContainer:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Post {
+    padding: 10px;
+  }
+  
